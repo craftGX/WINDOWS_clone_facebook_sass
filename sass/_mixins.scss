@@ -1,0 +1,12 @@
+@mixin flex($valeur1,$valeur2,$valeur3){
+    display:$valeur1;
+    justify-content: $valeur2;
+    align-items: $valeur3;
+}
+@mixin grid1($valeur1,$valeur2){
+    display:$valeur1;
+    grid-template-columns:$valeur2 ;
+}
+@mixin size1{
+    font-size: 30px;
+}
